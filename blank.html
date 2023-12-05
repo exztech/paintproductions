@@ -1,1 +1,82 @@
-# paintproductions
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint Productions</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        #paintos {
+            width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #title-bar {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        .window {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #4a90e2;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #357bd8;
+        }
+    </style>
+</head>
+<body>
+
+<div id="figma-os">
+    <div id="title-bar">
+        <h2>Paint Productions</h2>
+    </div>
+    <div id="content">
+        <div class="window">
+            <h3>Editions</h3>
+            <p>Select your edition of PaintOS.</p>
+            <a href="editions.html" class="button">Open</a>
+        </div>
+
+        <div class="window">
+            <h3>Discord</h3>
+            <p>Press to redirect to our Discord.</p>
+            <a href="https://discord.com" target="_blank" class="button">Apply Changes</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
